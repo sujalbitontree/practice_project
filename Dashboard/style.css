@@ -1,0 +1,51 @@
+.container{
+    display: grid;
+    grid-template-areas: 
+    "header navbar navbar"
+    "section section section"
+    "at1 at2 at3"
+    "footer footer footer";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1.5fr 1.5fr 0.5fr;
+    gap: 2px;
+    background-color: cadetblue;
+    height: 500px;
+    padding: 3px;
+    /* margin: 3px; */
+   
+
+}
+.container div.header{
+    grid-area: header;
+    
+}
+
+.container div.nav{
+    grid-area: navbar;
+}
+
+.container div.article{
+    grid-area: section;
+}
+
+.container div.b1{
+    grid-area: at1;
+}
+
+.container div.b2{
+    grid-area: at2;
+}
+
+.container div.b3{
+    grid-area: at3;
+}
+
+.container div.footer{
+    grid-area: footer;
+}
+
+.container div{
+    background-color: bisque;
+   margin: 2px;
+    padding: 5px;
+}

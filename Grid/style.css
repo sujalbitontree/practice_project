@@ -1,0 +1,29 @@
+.main{
+    height: 500px;
+    width: 800px;
+    background-color: aqua;
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "sidebar footer";
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 2fr 3fr;
+    
+    padding: 8px;
+    
+}
+p{
+    
+}
+.first{
+    grid-area: header;
+}
+.nav{
+    grid-area: sidebar;
+}
+.second{
+    grid-area: footer;
+}
+
+
+
